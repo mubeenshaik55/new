@@ -1,0 +1,44 @@
+body{
+    background-image: url(5.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.img1{
+    border-radius: 25px 50%;
+}
+.img2{border-radius: 40% 30%;
+    
+}
+.img3{
+    border-radius: 10px 40px;
+}
+.img4{
+    border-radius: 60px 70px 140px;
+}
+.img5{border-radius: 30% 30%/80% 80%;
+}
+.img1:hover{
+    border-radius: 30% 30%/80% 80%;
+    box-shadow: 15px 20px 20px black;
+    margin-bottom: 10px;}
+.img2:hover{
+    border-radius: 50px 70px 30px;
+    box-shadow: 15px 20px 20px blue;
+    margin-bottom: 10px; }
+.img3:hover{
+    border-radius: 80px 40px;
+    box-shadow: 35px 20px 20px red;
+    margin-bottom: 10px; }
+.img4:hover{
+    border-radius: 60px;
+    box-shadow: 15px 20px 20px yellow;
+    margin-bottom: 10px; }
+.img5:hover{
+    border-radius: 60px 50%;
+    box-shadow: 15px 20px 20px aqua;
+    margin-bottom: 60px; }
